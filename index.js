@@ -23,11 +23,13 @@ function divide(a, b) {
 }
 
 function inc(n) {
-
+  var n = n++
+  return n
 }
 
 function dec(n) {
-
+  var n = n--
+  return n
 }
 
 function makeInt(n) {
